@@ -5,7 +5,7 @@ project:
   author:       "James Meech"      # Your name
   discord:      "Meechy"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "A set of inverters"      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
