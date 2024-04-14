@@ -34,14 +34,14 @@ pinout:
   uo[7]: "Inverter 7 output"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "Bidirectional inverter 1 input"
+  uio[1]: "Bidirectional inverter 1 output"
+  uio[2]: "Bidirectional inverter 2 input"
+  uio[3]: "Bidirectional inverter 2 output"
+  uio[4]: "Bidirectional inverter 3 input"
+  uio[5]: "Bidirectional inverter 3 output"
+  uio[6]: "Bidirectional inverter 4 input"
+  uio[7]: "Bidirectional inverter 4 output"
 
 # Do not change!
 yaml_version: 6
