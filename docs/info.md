@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This project contains a set of inverters of different sizes.
+This project contains a set of inverters of different sizes connected between the input and output pins
 
 ## How to test
 
