@@ -13,6 +13,7 @@ project:
   top_module:  "tt_um_wokwi_395134712676183041"
   source_files:        
     - "project.v"
+    - "cells.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
