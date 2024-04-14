@@ -15,23 +15,23 @@ project:
 pinout:
   # Inputs
   ui[0]: "D Flip Flop Input"
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[1]: "Inverter 1 input"
+  ui[2]: "Inverter 2 input"
+  ui[3]: "Inverter 3 input"
+  ui[4]: "Inverter 4 input"
+  ui[5]: "Inverter 5 input"
+  ui[6]: "Inverter 6 input"
+  ui[7]: "Inverter 7 input"
 
   # Outputs
   uo[0]: "D Flip Flop output"
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[1]: "Inverter 1 output"
+  uo[2]: "Inverter 2 output"
+  uo[3]: "Inverter 3 output"
+  uo[4]: "Inverter 4 output"
+  uo[5]: "Inverter 5 output"
+  uo[6]: "Inverter 6 output"
+  uo[7]: "Inverter 7 output"
 
   # Bidirectional pins
   uio[0]: ""
