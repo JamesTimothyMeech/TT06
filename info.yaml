@@ -14,7 +14,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
+  ui[0]: "D Flip Flop Input"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -24,7 +24,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "D Flip Flop output"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
