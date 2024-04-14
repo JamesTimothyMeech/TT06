@@ -20,8 +20,8 @@ pinout:
   ui[3]: "Inverter 3 input"
   ui[4]: "Inverter 4 input"
   ui[5]: "Inverter 5 input"
-  ui[6]: "Inverter 6 input"
-  ui[7]: "Inverter 7 input"
+  ui[6]: "Inverter 6 input, also the output enable for all bidirectional pins connected to inverter inputs"
+  ui[7]: "Inverter 7 input, also the output enable for all bidirectional pins connected to inverter output"
 
   # Outputs
   uo[0]: "D Flip Flop output"
