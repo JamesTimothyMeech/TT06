@@ -36,11 +36,11 @@ jobs:
         path: tt
         ref: tt06
 
-    # need python and requirements
+    # need python and requirements (the tt06 tools now need Python 3.11 or newer)
     - name: setup python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.11'
     - run: pip install -r tt/requirements.txt
 
     # fetch the truth table
