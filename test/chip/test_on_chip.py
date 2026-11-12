@@ -10,6 +10,8 @@
 
 from ttboard.mode import RPMode
 
+MACRO = "tt_um_wokwi_395134712676183041"   # this design's top module
+
 
 def run(tt):
     failures = []
@@ -22,9 +24,11 @@ def run(tt):
             failures.append(name)
 
     # Let the RP2040 drive the inputs, and select this design.
-    # The TT06 firmware names the project "wokwi_inverters".
+    # Firmware versions give the project different names ("wokwi_inverters",
+    # "wokwi_inverters_041"), so find it by its macro name, which never changes.
     tt.mode = RPMode.ASIC_RP_CONTROL
-    tt.shuttle.wokwi_inverters.enable()
+    design = [d for d in tt.shuttle.find("inverters") if d.macro == MACRO][0]
+    design.enable()
     tt.clock_project_stop()
     tt.uio_oe_pico.value = 0           # the RP2040 drives no uio pin yet
 
