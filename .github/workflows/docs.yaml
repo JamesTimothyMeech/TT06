@@ -13,5 +13,12 @@ jobs:
         with:
           submodules: recursive
 
+      # The tt06 tools now build the datasheet with typst, but the tt06 action
+      # doesn't install it. Install the version Tiny Tapeout's current action uses.
+      - name: Install typst
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: '0.13.1'
+
       - name: Build docs
         uses: TinyTapeout/tt-gds-action/docs@tt06
